@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.automation.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.359 s <<< FAILURE! -- in com.automation.runner.TestRunner
+Automate jenkins job.add new jenkins job -- Time elapsed: 4.742 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at com.automation.steps.ConfigureStep.verifyUserIsOnConfigurePage(ConfigureStep.java:15)
+	at ✽.verify user is on configure page(file:///C:/UST_java/JenkinsAutomation/src/test/resources/feature/JenkinsJob.feature:19)
+
